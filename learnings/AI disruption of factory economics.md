@@ -53,7 +53,7 @@ Systematic analysis of how GenAI attacks the assumptions underlying factory econ
 - [[how does AI model risk map to the existing risk-capital matching framework for manufacturing financing]] — new financing models needed?
 
 ## Sources
-- [[genai disruption audit of factory economics]]
+- [genai disruption audit of factory economics](../archive/genai%20disruption%20audit%20of%20factory%20economics.md)
 
 ---
 

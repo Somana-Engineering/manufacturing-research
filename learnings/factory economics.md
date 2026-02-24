@@ -46,8 +46,8 @@ Understanding the economic parameters of manufacturing: how costs are structured
 - [[in micro-manufacturing the competitive moat is software not hardware because design automation and scheduling determine who can serve high-mix demand profitably]] — Cimpress ($3.4B), Bright Machines, and Tempo prove the software-defined manufacturing model
 
 ## Sources
-- [[a16z a primer on factory economics for software people]]
-- [[genai disruption audit of factory economics]]
+- [a16z a primer on factory economics for software people](../archive/a16z%20a%20primer%20on%20factory%20economics%20for%20software%20people.md)
+- [genai disruption audit of factory economics](../archive/genai%20disruption%20audit%20of%20factory%20economics.md)
 
 ## AI Disruption
 See [[AI disruption of factory economics]] for the systematic GenAI attack on every assumption in this domain — 20 learnings, 2 tensions, 2 open questions.

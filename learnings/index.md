@@ -15,9 +15,9 @@ Welcome to Somana's manufacturing research knowledge system. This vault tracks l
 - [[manufacturing software]] — control systems, data infrastructure, MES, edge AI, and how software reshapes the factory stack
 
 ## System
-- [[identity]] — who the agent is and how it approaches work
-- [[methodology]] — how the agent extracts and connects knowledge
-- [[goals]] — current active threads
+- [identity](../self/identity.md) — who the agent is and how it approaches work
+- [methodology](../self/methodology.md) — how the agent extracts and connects knowledge
+- [goals](../self/goals.md) — current active threads
 
 ## Getting Started
 1. Read self/identity.md to understand the research mission

@@ -11,11 +11,14 @@ created: 2026-02-19
 
 Examples of micro-adjustments: lower driver speed for harder batch material, change torque target, shift temperature setpoint within allowable window, recalibrate process window for humidity change, adjust dwell time for upstream thermal variation. None dramatic individually. But they compound: every station × every shift × every day = meaningful gains in throughput and quality. This compounding effect is the core value proposition of adaptive control.
 
+The compounding effect — powerful but invisible by default — becomes dramatically visible with a [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value|mode dial]]. Toggle a station from Autonomous to Manual and the micro-adjustments stop. Watch the metrics diverge over the next 5 units. The compounding reversal is the proof: adaptive control doesn't just help on one unit, it compounds across every unit, and removing it makes the degradation visible in real time.
+
 ## Relevant Notes
 - [[adaptive control responds to condition combinations too complex for human-authored rules]]
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]]
 - [[in-process quality monitoring transforms final inspection from discovery to confirmation]]
 - [[AI process control squeezes out the safety margins baked into consumable usage rates by operating continuously at the efficient frontier]] — the economic framing: each micro-adjustment squeezes a margin that was baked in for humans
+- [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — mode switching makes the compounding effect visible to visitors
 
 ---
 
