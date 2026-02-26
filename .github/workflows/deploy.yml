@@ -40,6 +40,7 @@ jobs:
           cp -r content-repo/learnings quartz/content
           cp content-repo/quartz.config.ts quartz/quartz.config.ts
           cp content-repo/quartz.layout.ts quartz/quartz.layout.ts
+          cp content-repo/custom.scss quartz/quartz/styles/custom.scss
 
       - name: Build
         run: cd quartz && npx quartz build
