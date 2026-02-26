@@ -20,6 +20,8 @@ All-in costs for a 100-unit box build (custom PCB + enclosure + cables + packagi
 - [[customization inverts the small-scale penalty into a premium when each product is inherently unique]] — hardware startups need batch-of-one or batch-of-ten
 - [[in micro-manufacturing the competitive moat is software not hardware because design automation and scheduling determine who can serve high-mix demand profitably]] — AI quoting and scheduling differentiate a micro-factory from a job shop
 - [[setup cost and optimal batch size are mathematically linked through EOQ so reducing changeover time enables smaller batches and leaner inventory]] — 3D printing drives setup cost toward zero for enclosures
+- [[demo factories that convert visitors combine recognizable products visible customization a moment of truth and product changeover as the primary demonstration]] — the assembly capability is inherently a demo: visitors see boarding boxes assembled and realize "you could assemble MY product here"
+- [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — contract assembly service could self-fund from Phase 1 (manual, $2K) with real customer revenue
 
 ---
 

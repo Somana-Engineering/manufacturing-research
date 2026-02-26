@@ -68,6 +68,7 @@ The product is a variability reduction engine that also optimizes the other four
 - [[OEE decomposes into availability performance and quality to diagnose where operational capacity is lost]]
 - [[adaptive control responds to condition combinations too complex for human-authored rules]]
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]]
+- [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — concrete mini-factory application of leverage point 3: changeover time matters more than balance at low volumes
 
 ---
 

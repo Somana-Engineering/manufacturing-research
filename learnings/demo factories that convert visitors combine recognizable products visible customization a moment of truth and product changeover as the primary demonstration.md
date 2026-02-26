@@ -24,6 +24,7 @@ But there is a level beyond product changeover: mode switching. [[a togglable mo
 - [[ISA-88 recipe management separates what to make from how to make it through four recipe types cascading from R&D to execution]] — recipe switching is the mechanism behind seamless changeover
 - [[desktop-scale industrial automation now costs 15 to 50K and exposes the same data protocols as full-scale factory equipment]] — the equipment to build a demo factory is now affordable
 - [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — dual-purpose layout solves the production-vs-demo tension in ~20x20 ft
+- [[contract box-build assembly for 10 to 500 units is massively underserved because tooling costs and minimum order quantities block hardware startups]] — the demo implicitly sells assembly-as-a-service: visitors see their products being assembled here
 
 ---
 

@@ -42,6 +42,15 @@ created: 2026-02-19
 - [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — invest in SMED over balance optimization; 60-minute takt at 8 units/day gives massive tolerance
 - [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — THE architectural decision: every station has Manual/Assisted/Autonomous modes; the primary demo is the comparison between them
 
+## Mini Factory — Mode Dial Software Architecture
+- [[a hardware abstraction layer decouples mode switching from physical equipment by routing the same control signals through different software configurations]] — the HAL makes mode switching work across heterogeneous stations without custom integration per equipment type
+- [[software-defined automation makes each operating mode a deployable software configuration rather than a hardware configuration enabling version-controlled iteration]] — WEF-validated architectural pattern: modes as version-controlled software deployments
+- [[agent-based control enables per-station mode independence where each station maintains its own mode state while reporting to a central dashboard]] — Station 3 runs Autonomous while Station 1 runs Manual, multiplying demo permutations
+- [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible]] — the data architecture decision that makes the evidence engine work
+- [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function]] — the open-source pipeline for mode-comparative manufacturing metrics
+- [[the mode comparison dashboard must update within 1-2 seconds of a mode change to maintain the cause-and-effect demo experience which demands edge processing]] — demo UX requires edge-local pipeline for sub-2-second feedback
+- [[OEE component decomposition tells different stories across modes where performance shows the biggest gap and availability stays roughly constant]] — decomposed OEE makes the mode comparison legible to visitors
+
 ## Mini Factory — Assembly Engineering
 - [[design for assembly decisions in CAD have 10x more impact on production cost than any downstream process optimization]] — snap-fits vs inserts for 3D-printed boarding box enclosures
 - [[3D printers that produce enclosures should simultaneously produce assembly fixtures and test jigs at near-zero marginal tooling cost]] — print farm does double duty: enclosures + tooling
@@ -59,6 +68,7 @@ Product portfolio for demos: IoT environmental sensors (BOM $15–40, 50–70% m
 ---
 
 Agent Notes:
+- 2026-02-25: Added Mode Dial Software Architecture section (7 learnings). The mode dial concept now has engineering depth: HAL pattern, SDA validation, per-station independence, mode-tagged data, metrics pipeline stack, dashboard latency, and OEE decomposition across modes. The "how to build it" is now specified alongside the "why to build it."
 - 2026-02-23: Added Line Layout & Demo Architecture section (U-cells, changeover-vs-balance, mode dial). The mode dial learning is the single most important architectural insight for the demo factory — it reframes the factory from "showcase that runs" to "evidence engine that proves software value through live A/B comparison." Updated Production Line Design context phrases to reflect mode dial connections.
 - 2026-02-20 (update): Pivoted from SMT assembly to final assembly + 3D-printed enclosures. SMT knowledge remains relevant as understanding of customer world (factory floor equipment integration) but not as Somana's own manufacturing process. PCBAs arrive pre-assembled from contract manufacturers.
 - 2026-02-20 (earlier): SMT assembly initially identified as strongest candidate from three-source convergence. Preserved in the graph as validated market knowledge.

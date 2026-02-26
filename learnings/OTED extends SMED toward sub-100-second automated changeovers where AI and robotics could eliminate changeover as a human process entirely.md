@@ -22,6 +22,7 @@ This connects to [[the gap between nameplate and demonstrated capacity narrows u
 - [[institutional design debt accumulates when systems optimize for constraints that technology has already eliminated]]
 - [[dynamic bottleneck management makes the constraint a managed variable rather than an observed fact]]
 - [[AI compresses factory ramp timelines because AI capability deploys instantly while human skill takes months to develop]]
+- [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — OTED-level changeover makes the balance-vs-changeover tradeoff disappear: when changeover is under 100 seconds, it stops being a factor at any volume
 
 ---
 

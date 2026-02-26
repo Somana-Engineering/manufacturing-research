@@ -24,6 +24,10 @@ The physical layer of manufacturing: how material is removed, formed, and joined
 - [[equal cost point analysis determines the crossover batch size where automated production becomes cheaper than manual methods]] — break-even analysis for automation decisions
 - [[OTED extends SMED toward sub-100-second automated changeovers where AI and robotics could eliminate changeover as a human process entirely]] — the frontier where changeover becomes a software problem
 
+## Assembly Cell Layout
+- [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — U-cells solve the mini-factory flexibility problem: 1 operator in demo mode, 3+ for production, same physical footprint
+- [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — the practical application of SMED at 8 units/day: invest in changeover speed, accept moderate imbalance
+
 ## Office-Scale Assembly
 - [[SMT electronics assembly is the most viable office-scale production process because it combines multi-step flow with rich data and natural product changeovers]] — convergent finding from three independent research angles; paste→place→reflow→inspect fits on two desks at ~$15K total
 
@@ -37,7 +41,12 @@ The strongest insight from this research layer: **process physics provides the p
 
 ## Open Questions
 - How do Somana's specific product materials constrain their manufacturing process and tooling selection?
-- What is the optimal changeover strategy for a mini factory line with AI-driven scheduling?
+- What is the optimal changeover strategy for a mini factory line with AI-driven scheduling? *(Partially answered: changeover-vs-balance analysis says prioritize SMED over balance optimization at mini-factory volumes)*
+
+---
+
+Agent Notes:
+- 2026-02-25: Added Assembly Cell Layout section with U-cell and changeover-vs-balance learnings. These bridge the gap between abstract changeover methodology (SMED, OTED) and concrete mini-factory implementation. The changeover-vs-balance analysis partially answers the open question about optimal changeover strategy at mini-factory scale.
 
 ---
 
