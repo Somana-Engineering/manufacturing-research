@@ -16,6 +16,10 @@ But the deepest insight is that the changeover itself is the primary demo. Sieme
 
 But there is a level beyond product changeover: mode switching. [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value|Switching a station between Manual, Assisted, and Autonomous modes]] isolates the software variable while holding everything else constant. Product changeover proves the platform handles variety; mode switching proves the software creates measurable value on the SAME product. The combination — switching products AND switching modes — is the ultimate demo: every permutation generates unique comparative evidence.
 
+The strongest single demo moment may be the compounding OEE formula: [[the compounding OEE formula is powerful demo content showing visitors how small per-station improvements cascade into large system gains|switching one station from Manual to Autonomous visibly lifts the system OEE number]] by more than the naive per-station improvement. The multiplicative compounding is counterintuitive and therefore memorable — visitors leave understanding that per-station software improvement cascades non-linearly across the whole line.
+
+The demo also has a post-visit value proposition. For contract customers, [[contract box-build becomes a design intelligence service when mode-tagged data generates empirical DFA report cards for every customer product|every assembled product generates an empirical DFA report card]]. The same mode-tagged data that powers the live demo accumulates into design intelligence that transforms commodity assembly into a consultancy relationship. Visitors don't just see a factory — they see the data service their own products would generate.
+
 ## Relevant Notes
 - [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — mode switching is a more powerful moment of truth than product changeover
 - [[SMED attacks changeover time through a five-step framework that separates internal from external work reducing setup by an average of 94 percent]] — changeover visibility IS the demo
@@ -25,6 +29,10 @@ But there is a level beyond product changeover: mode switching. [[a togglable mo
 - [[desktop-scale industrial automation now costs 15 to 50K and exposes the same data protocols as full-scale factory equipment]] — the equipment to build a demo factory is now affordable
 - [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — dual-purpose layout solves the production-vs-demo tension in ~20x20 ft
 - [[contract box-build assembly for 10 to 500 units is massively underserved because tooling costs and minimum order quantities block hardware startups]] — the demo implicitly sells assembly-as-a-service: visitors see their products being assembled here
+- [[the compounding OEE formula is powerful demo content showing visitors how small per-station improvements cascade into large system gains]] — the multiplicative OEE cascade is the most powerful single "moment of truth" in the demo
+- [[contract box-build becomes a design intelligence service when mode-tagged data generates empirical DFA report cards for every customer product]] — the demo's post-visit value: assembly data becomes design intelligence for each customer
+- [[the mode comparison dashboard must update within 1-2 seconds of a mode change to maintain the cause-and-effect demo experience which demands edge processing]] — sub-2-second dashboard update is what makes the mode switching moment visceral
+- [[torque specifications for fasteners provide an ideal measurable parameter for demonstrating mode dial differences across manual assisted and autonomous assembly]] — torque accuracy is a tangible, per-station metric visitors can see diverge by mode
 
 ---
 

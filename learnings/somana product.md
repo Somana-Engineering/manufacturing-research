@@ -66,6 +66,37 @@ created: 2026-02-19
 - [[30 cycles per mode per step provides sufficient data for detecting a 20 percent mode gap with reasonable statistical confidence]] — ~450 total cycles for a 5-station 3-mode line; achievable in weeks of production
 - [[DFA feedback credibility requires production volume that new customer relationships lack]] — the service is most valuable for first-batch customers who have the least data
 
+## Mini Factory — Boarding Box Process Parameters
+- [[box build assembly follows a bottom-up layered sequence where each level is inspected before the next begins]] — 9-step sequence with natural inspection gates at every layer transition; maps to 5-station U-cell
+- [[system OEE compounds multiplicatively across stations so a five-station line targeting 90 percent system OEE requires each station at 97-9 percent]] — the compounding formula makes mode dial a reliability mechanism, not just a demo feature
+- [[IPC-A-630 is the only IPC standard dedicated to box build assembly defining three product classes for manufacture inspection and testing of electronic enclosures]] — industry-standard quality framework gives the mini factory credibility
+- [[quality testing in box build assembly follows a six-level progressive hierarchy from sub-assembly through final inspection]] — six test levels each demonstrable in Manual/Assisted/Autonomous modes
+- [[environmental controls for electronics assembly require 18-25C and 40-55 percent RH with ESD prevention as the primary humidity driver]] — achievable with office HVAC plus basic ESD supplements
+- [[torque specifications for fasteners provide an ideal measurable parameter for demonstrating mode dial differences across manual assisted and autonomous assembly]] — the most tangible per-station mode comparison metric
+- [[capacitor failures account for nearly 30 percent of PCB failures making incoming PCBA inspection critical for box build yield]] — incoming inspection as the first quality gate
+- [[single-source manufacturing prevents component compatibility failures that arise when subsystems are sourced from different suppliers]] — single integrator is a concrete value proposition for contract customers
+- [[the compounding OEE formula is powerful demo content showing visitors how small per-station improvements cascade into large system gains]] — the "moment of truth" in the demo: one mode switch visibly lifts system OEE
+- [[the 97-9 percent per-station OEE reliability requirement creates tension with mode-switching experimentation because every mode transition risks a temporary OEE dip]] — tension: reliability demand vs. switching freedom
+- [[rolled throughput yield compounds across process steps making each step's quality critical]] — RTY compounds alongside system OEE; both impose exponential penalties on the 5-station line
+- [[OEE decomposes into availability performance and quality to diagnose where operational capacity is lost]] — per-mode OEE decomposition reveals which component (availability, performance, quality) drives the mode gap at each station
+
+## Mini Factory — BOM & Sourcing
+- [[a boarding box BOM divides into six functional categories with fasteners as highest piece count but lowest cost]] — 25-45 line items, $68-164 per unit; six categories map to assembly layers
+- [[the SBC is the dominant BOM cost driver and product margin depends heavily on compute module selection]] — SBC is 30-45% of BOM ($35-80); compute choice defines the product
+- [[electronic component sourcing follows a three-tier distributor model where each tier trades authenticity guarantees for cost savings]] — Tier 1 for electronics, direct for hardware, in-house for enclosures
+- [[kitting services eliminate per-station parts counting and reduce assembly errors at a cost of 2 to 5 dollars per kit]] — pre-kitted BOM bags simplify Station 1 and accelerate changeover
+- [[mechanical hardware and consumables should be sourced direct from manufacturers at 50 to 70 percent savings over distributors because authenticity risk is negligible]] — commodity items bypass the tier model
+- [[IPC-A-630 traceability requirements make broker-sourced electronic components a compliance risk for production]] — Tier 3 fails IPC compliance; traceability constrains sourcing
+
+## Mini Factory — DFA-Driven BOM Optimization
+- [[keyed connectors trade pennies in BOM cost for seconds of cycle time and near-elimination of polarity assembly errors]] — $0.15-0.50 per connection saves 5-8s and eliminates polarity errors
+- [[pre-terminated cable harnesses cost 2 to 5 dollars more per unit but eliminate the wire preparation step entirely]] — $2-5 eliminates 20-40s and collapses the 9-step process to 8 steps
+- [[heat-set insert count is a critical DFA lever where reducing inserts from 8-12 to 4 saves 32 to 48 seconds in manual mode]] — snap-fits for closure, inserts only for PCB mounting
+- [[SBC carrier boards add 5 to 15 dollars BOM cost but reduce station 2 cycle time by 15 to 20 seconds and eliminate the most common assembly error]] — poka-yoke against bent GPIO pins
+- [[BOM cost versus assembly cycle time creates a spectrum of trade-offs where every dollar spent on poka-yoke components saves seconds on the line]] — tension: $7-25 BOM increase saves 72-116s but reduces mode gap
+- [[boarding box manual assembly totals 353 to 575 seconds across five stations with station 1 as bottleneck at 125 seconds]] — bottom-up cycle time derivation with 74% line balance efficiency
+- [[the automation mode gap varies by station with software and testing showing the highest gap at 59 percent and mechanical assembly the lowest at 29 percent]] — per-station mode gap quantifies where automation adds most value
+
 ## Mini Factory — Assembly Engineering
 - [[design for assembly decisions in CAD have 10x more impact on production cost than any downstream process optimization]] — snap-fits vs inserts for 3D-printed boarding box enclosures
 - [[3D printers that produce enclosures should simultaneously produce assembly fixtures and test jigs at near-zero marginal tooling cost]] — print farm does double duty: enclosures + tooling
@@ -83,6 +114,8 @@ Product portfolio for demos: IoT environmental sensors (BOM $15–40, 50–70% m
 ---
 
 Agent Notes:
+- 2026-02-26: Added BOM & Sourcing section (6 entries) and DFA-Driven BOM Optimization section (7 entries). The BOM is now specified: six functional categories, three-tier sourcing strategy, $68-164 total with SBC as dominant cost driver. DFA-driven BOM choices quantified: keyed connectors ($0.15-0.50 saves 5-8s), pre-terminated harnesses ($2-5 saves 20-40s), carrier boards ($5-15 saves 15-20s), snap-fits (free saves 32-48s). Per-station mode gap projections: testing 59% (highest), mechanical 29% (lowest), 43% average. Manual line total: 353-575s (464s midpoint). New tension: BOM cost vs assembly cycle time.
+- 2026-02-26: Added Boarding Box Process Parameters section (10 entries: 9 learnings + 1 tension). The boarding box assembly sequence is now specified: 9-step layered build with inspection gates, system OEE compounding formula (97.9% per station for 90% system), IPC-A-630 quality framework, 6-level test hierarchy, environmental controls, torque as the ideal demo metric, incoming PCBA inspection, single-source integration value prop, and compounding OEE as demo content. One new tension: OEE reliability vs. mode-switching experimentation.
 - 2026-02-26: Added DFA Feedback Engine section (9 learnings). The single most accretive addition to the plan: the mode dial's per-step Manual-vs-Autonomous performance gap IS a quantified DFA score. Every assembled product generates an empirical DFA report card, transforming contract box-build from commodity assembly into a design intelligence service with a compounding data flywheel. The Assisted mode adds a diagnostic dimension traditional DFA lacks: information problems vs. physics problems. Zero incremental infrastructure cost — same mode-tagged pipeline, new analytical layer.
 - 2026-02-25: Added Mode Dial Tensions section with e-stop and dashboard tension learnings. These tensions surface practical design constraints on the mode dial: e-stop adds per-station hardware wiring complexity proportional to agent count, and the dashboard tension determines how to sequence investment in real-time vs. historical analytics infrastructure.
 - 2026-02-25: Added Mode Dial Software Architecture section (7 learnings). The mode dial concept now has engineering depth: HAL pattern, SDA validation, per-station independence, mode-tagged data, metrics pipeline stack, dashboard latency, and OEE decomposition across modes. The "how to build it" is now specified alongside the "why to build it."
