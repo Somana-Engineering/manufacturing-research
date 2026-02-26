@@ -49,6 +49,11 @@ The factory software stack spans from embedded PLC firmware to cloud AI platform
 - [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor]] — live demos vs. rigorous evidence: same data, different time windows
 - [[emergency stop must be hardware-enforced not software-enforced creating a hard boundary on software-defined automation]] — the irreducible hardware safety layer that limits SDA
 
+## DFA Feedback Analytics
+- [[the DFA feedback engine is an analytical layer on existing mode-tagged data infrastructure not a new data system]] — zero incremental infrastructure: DFA analytics run queries against the same InfluxDB the mode-tagged pipeline already populates
+- [[72 percent of manual factory tasks are unmonitored and the mode dial architecture eliminates this blind spot by instrumenting all three modes equally]] — the mode-tagged pipeline instruments Manual mode, capturing data that 72% of factories never collect
+- [[30 cycles per mode per step provides sufficient data for detecting a 20 percent mode gap with reasonable statistical confidence]] — the statistical threshold that determines when DFA analytics become credible; ~450 total cycles for a 5-station 3-mode line
+
 ## Cross-Cutting Themes
 - [[equipment heterogeneity across vendors protocols and decades is what kills most automation projects]] — the universal starting condition any software layer must accommodate
 - [[a unified integration layer creates a common nervous system across heterogeneous equipment without replacing anything]] — Somana's approach: integration plus intelligence, not just plumbing
@@ -63,9 +68,14 @@ The factory software stack spans from embedded PLC firmware to cloud AI platform
 ## Open Questions
 - What is the right abstraction layer for manufacturing AI — should it sit at the MES level, the historian level, or as a separate overlay?
 - How does the protocol fragmentation landscape change as TSN (Time-Sensitive Networking) matures — does convergence actually happen?
-- How many production cycles per mode are needed before the performance difference is statistically significant for sales evidence? (Relates to [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor|the demo-vs-analytics tension]] — this is the question that determines when the historical display becomes useful)
+- How many production cycles per mode are needed before the performance difference is statistically significant for sales evidence? *(Partially answered: [[30 cycles per mode per step provides sufficient data for detecting a 20 percent mode gap with reasonable statistical confidence|30 cycles per mode per step]] detects a 20%+ mode gap with p < 0.05 and power > 0.80; ~450 total cycles for a 5-station 3-mode line, achievable in ~2 months at 8 units/day. Relates to [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor|the demo-vs-analytics tension]].)*
 - Does the ROS2 lifecycle node state machine (unconfigured → inactive → active → finalized) map to mode dial transitions for cobot stations?
 - What is the right OPC-UA information model for encoding mode state as a standardized object queryable by any OPC-UA client?
+
+---
+
+Agent Notes:
+- 2026-02-26: Added DFA Feedback Analytics section (3 entries). These learnings sit in the software domain because the DFA engine is an analytical layer on existing infrastructure, not a new data system. The 30-cycle statistical parameter partially answers the open question about how many cycles are needed for credible evidence. The 72% unmonitored tasks statistic connects the mode dial architecture to a broader industry pain point — instrumenting Manual mode is itself an innovation.
 
 ---
 

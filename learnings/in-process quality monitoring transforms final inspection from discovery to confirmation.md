@@ -13,6 +13,8 @@ The challenged assumption: quality lives at the end of the line. Build the thing
 
 In assembly operations, in-process monitoring takes a different form than in machining or continuous process manufacturing. For kitting and box-build assembly, AI vision verification checks component presence in 0.8 seconds per kit, catching errors that cost $12–15 each in customer service and reverse logistics. Industry kitting error rates run 3–8%; one manufacturer's 8% error rate cost $45K/month on 5,000 kits. Weight-check anomaly detection calibrated to golden-sample weights catches deviations as small as 2 grams. For assembled electronics like boarding boxes, [[functional testing consumes 35 to 40 percent of low-volume production time making it the highest-ROI first automation target|functional testing during assembly]] (power-on, boot, connectivity checks at each insertion step) transforms the test from a final gate into continuous confirmation.
 
+The box build assembly research validates this with a concrete six-level testing hierarchy: sub-assembly → intermediate → functional → first-article → in-process sampling → final inspection. Each level catches different failure modes at increasing system integration. The [[quality testing in box build assembly follows a six-level progressive hierarchy from sub-assembly through final inspection|progressive hierarchy]] means final inspection genuinely confirms what five prior levels already detected — the discovery happens at layers 1–5, not layer 6.
+
 ## Relevant Notes
 - [[quality escapes are the most valuable learning signal because they reveal unknown failure modes]]
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]]
@@ -22,6 +24,9 @@ In assembly operations, in-process monitoring takes a different form than in mac
 - [[sampling-based quality is design debt from when 100 percent inspection was too expensive for humans]] — in-process monitoring is what makes sampling obsolete
 - [[functional testing consumes 35 to 40 percent of low-volume production time making it the highest-ROI first automation target]] — testing during assembly is in-process monitoring applied to box-build
 - [[3D printers that produce enclosures should simultaneously produce assembly fixtures and test jigs at near-zero marginal tooling cost]] — 3D-printed pogo-pin fixtures enable in-process testing at each assembly step
+- [[quality testing in box build assembly follows a six-level progressive hierarchy from sub-assembly through final inspection]] — the six-level hierarchy IS in-process monitoring applied to box build
+- [[box build assembly follows a bottom-up layered sequence where each level is inspected before the next begins]] — each layer transition is a natural inspection gate
+- [[capacitor failures account for nearly 30 percent of PCB failures making incoming PCBA inspection critical for box build yield]] — incoming inspection catches the dominant failure mode before it enters the assembly sequence
 
 ---
 

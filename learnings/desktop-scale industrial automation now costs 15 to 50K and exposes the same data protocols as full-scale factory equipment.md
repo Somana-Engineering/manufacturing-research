@@ -14,7 +14,10 @@ Starter tier (~$15K): VEVOR conveyor ($450) + Dobot MG400 arm ($2.9K, 750g paylo
 
 What makes this transformative: every piece of equipment in these tiers exposes [[a unified integration layer creates a common nervous system across heterogeneous equipment without replacing anything|the same industrial protocols]] as full-scale factory equipment. The xArm 6 speaks Modbus TCP like a Fanuc. The WAGO PFC200 runs IEC 61131-3 ladder logic like a Siemens S7-1500. The Dorner conveyor accepts VFD speed commands like a factory-floor line. Software built for this desk-scale line works in a real factory — the [[equipment heterogeneity across vendors protocols and decades is what kills most automation projects|protocol stack is the same]].
 
+The boarding box assembly research adds environmental requirements to the equipment picture: [[environmental controls for electronics assembly require 18-25C and 40-55 percent RH with ESD prevention as the primary humidity driver|temperature 18-25°C, humidity 40-55% RH, and ESD protection]]. These are achievable with standard office HVAC plus supplementary controls (anti-static mats, wrist straps, basic ionizer), keeping the environmental investment within the $15-50K equipment budget. Environmental sensors feeding the same MQTT pipeline as production data add negligible cost but enable environmental correlation with quality metrics.
+
 ## Relevant Notes
+- [[environmental controls for electronics assembly require 18-25C and 40-55 percent RH with ESD prevention as the primary humidity driver]] — environmental requirements are achievable at office scale
 - [[a unified integration layer creates a common nervous system across heterogeneous equipment without replacing anything]] — the integration layer works at desk scale too
 - [[equipment heterogeneity across vendors protocols and decades is what kills most automation projects]] — desktop equipment now speaks industrial protocols (Modbus TCP, OPC UA, MQTT)
 - [[modern compact PLCs run Linux with Docker alongside IEC 61131-3 logic blurring the boundary between industrial controller and edge computing node]]

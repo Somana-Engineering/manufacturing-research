@@ -16,6 +16,7 @@ The result: you don't just reject bad materials at the door — you adapt proces
 - [[adaptive control responds to condition combinations too complex for human-authored rules]]
 - [[rolled throughput yield compounds across process steps making each step's quality critical]]
 - [[material properties create hard constraints on manufacturing process selection where ductility limits formability hardness dictates cutting forces and melting point governs joining]] — the physics that determines WHICH parameters to adjust for material variation
+- [[capacitor failures account for nearly 30 percent of PCB failures making incoming PCBA inspection critical for box build yield]] — concrete application: AI-powered incoming PCBA inspection at Somana's mini factory detects solder quality variation and adapts downstream handling
 
 ---
 

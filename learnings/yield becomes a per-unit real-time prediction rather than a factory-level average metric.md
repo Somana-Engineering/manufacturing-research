@@ -19,6 +19,7 @@ This has pricing implications: if AI can predict per-unit yield probability in r
 - [[adaptive control responds to condition combinations too complex for human-authored rules]] — per-unit yield prediction feeds adaptive control decisions: adjust downstream parameters based on predicted upstream quality
 - [[edge compute is necessary for real-time manufacturing control because cloud latency exceeds response requirements]] — real-time per-unit prediction requires edge inference at line speed
 - [[SMT electronics assembly is the most viable office-scale production process because it combines multi-step flow with rich data and natural product changeovers]] — concrete testbed: paste printing quality predicts downstream solder joint yield per board
+- [[environmental controls for electronics assembly require 18-25C and 40-55 percent RH with ESD prevention as the primary humidity driver]] — environmental variation (humidity, temperature) during assembly is a concrete input to per-unit yield prediction for electronics box build
 
 ---
 
