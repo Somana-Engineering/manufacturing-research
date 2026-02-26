@@ -16,6 +16,7 @@ The "staffing ramp leads production ramp" assumption breaks: AI capability can b
 - [[Wright's Law predicts manufacturing costs decline by a fixed percentage with each cumulative production doubling]]
 - [[cross-site knowledge transfer means each subsequent factory deployment ramps faster than the previous one]]
 - [[the competitive moat shifts from accumulated production volume to data infrastructure quality and AI model sophistication]] — compressed ramp means early movers accumulate data advantage faster, widening the intelligence moat
+- [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — progressive automation IS a compressed ramp: you start producing in Phase 1 (manual, day one) while AI capability layers in incrementally
 
 ---
 

@@ -18,6 +18,7 @@ These costs are not only reducible — they can become variable (scale AI comput
 - [[institutional design debt accumulates when systems optimize for constraints that technology has already eliminated]]
 - [[customization inverts the small-scale penalty into a premium when each product is inherently unique]] — reduced operating leverage makes customization niches viable where batch-of-one economics previously failed
 - [[in micro-manufacturing the competitive moat is software not hardware because design automation and scheduling determine who can serve high-mix demand profitably]] — Cimpress and Bright Machines demonstrate that software-defined changeover is how AI shrinks setup costs in practice
+- [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — reduced operating leverage is exactly what makes phased $2K-to-$150K investment viable: underutilization at early phases carries less penalty
 
 ---
 

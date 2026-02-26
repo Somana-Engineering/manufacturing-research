@@ -21,6 +21,8 @@ At desk scale, a UNS is achievable with minimal governance burden: a Mosquitto o
 - [[nine software layers span from embedded PLC firmware to cloud AI platforms with the ISA-95 pyramid as persistent organizational backbone]]
 - [[modern compact PLCs run Linux with Docker alongside IEC 61131-3 logic blurring the boundary between industrial controller and edge computing node]] — WAGO PFC200 can host the MQTT broker and Node-RED translation on the PLC itself
 - [[desktop-scale industrial automation now costs 15 to 50K and exposes the same data protocols as full-scale factory equipment]] — desk-scale UNS is practical because every device speaks MQTT, OPC UA, or Modbus
+- [[the Unified Namespace applied to mode-dial data should encode mode context alongside sensor readings in the MQTT topic hierarchy]] — the mode dial is a concrete governance test: mode context must be enforced as a data contract in the topic hierarchy
+- [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible]] — mode tagging is a specific governance requirement the UNS must enforce
 
 ---
 

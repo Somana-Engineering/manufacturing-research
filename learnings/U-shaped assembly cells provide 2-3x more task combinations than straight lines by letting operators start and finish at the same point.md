@@ -27,6 +27,8 @@ Conveyor selection: tabletop belt conveyors (Mini-Mover LP Series, Vention modul
 - [[desktop-scale industrial automation now costs 15 to 50K and exposes the same data protocols as full-scale factory equipment]] — tabletop conveyors in indexed mode fit U-cell curves at desk scale
 - [[demo factories that convert visitors combine recognizable products visible customization a moment of truth and product changeover as the primary demonstration]] — dual layout resolves the production-vs-demo tension
 - [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — U-cells tolerate imbalance gracefully through flexible task grouping
+- [[bottleneck debottlenecking is often the highest-ROI capital investment in operating factories]] — U-cells enable dynamic bottleneck management by letting operators absorb tasks from the constraining station
+- [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — dual layout places mode-switchable stations where visitors can interact with them
 
 ---
 

@@ -24,6 +24,9 @@ The mode dial insight reframes progressive automation from a one-way investment 
 - [[design for assembly decisions in CAD have 10x more impact on production cost than any downstream process optimization]]
 - [[desktop-scale industrial automation now costs 15 to 50K and exposes the same data protocols as full-scale factory equipment]]
 - [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — invest in changeover speed over balance optimization at low volumes
+- [[AI shrinks the fixed cost base making operating leverage less punishing for underutilization and less rewarding for high utilization]] — reduced operating leverage is what makes phased investment tolerable: underutilization in early phases carries less penalty
+- [[AI compresses factory ramp timelines because AI capability deploys instantly while human skill takes months to develop]] — progressive automation IS compressed ramp: produce from day one while AI layers in
+- [[contract box-build assembly for 10 to 500 units is massively underserved because tooling costs and minimum order quantities block hardware startups]] — the assembly capability can generate revenue from Phase 1 as a service product
 
 ---
 

@@ -17,6 +17,7 @@ A typical mid-sized plant runs 50,000-500,000 data tags; large refineries exceed
 - [[what is the minimum data infrastructure investment needed to realize AI-driven manufacturing economics]]
 - [[edge compute is necessary for real-time manufacturing control because cloud latency exceeds response requirements]]
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]]
+- [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function]] — InfluxDB is positioned as the time series storage layer in the standard manufacturing pipeline, directly challenging PI System for new deployments
 
 ---
 

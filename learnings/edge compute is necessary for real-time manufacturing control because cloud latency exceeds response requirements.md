@@ -19,6 +19,8 @@ The market is validating this architectural bet. Analysts predict 50% enterprise
 - [[predictive maintenance uses already-flowing process data rather than requiring dedicated condition monitoring hardware]]
 - [[computer vision inspection runs at 1200 parts per minute on the edge because millisecond latency makes cloud inference impractical]]
 - [[edge AI adoption follows a PoC-to-platform progression where infrastructure deployment replaces isolated use case development]]
+- [[the mode comparison dashboard must update within 1-2 seconds of a mode change to maintain the cause-and-effect demo experience which demands edge processing]] — a second edge latency requirement: demo UX (1-2s) alongside control latency (50ms)
+- [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function]] — the entire metrics pipeline runs at the edge for real-time dashboard updates
 
 ---
 

@@ -22,6 +22,7 @@ Changeover time is a major component of the non-processing time that dominates [
 - [[takt time synchronizes production pace to customer demand]]
 - [[cash conversion cycle measures how long cash stays tied up in operations]]
 - [[OTED extends SMED toward sub-100-second automated changeovers where AI and robotics could eliminate changeover as a human process entirely]]
+- [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — the practical application: at 8 units/day with 60-minute takt, SMED investment beats balance optimization
 
 ---
 

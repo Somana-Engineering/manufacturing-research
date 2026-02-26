@@ -16,6 +16,8 @@ MQTT provides lightweight pub/sub messaging for distributing normalized events a
 - [[a unified integration layer creates a common nervous system across heterogeneous equipment without replacing anything]]
 - [[industrial protocol fragmentation creates a vendor-locked landscape where PROFINET EtherNet-IP and EtherCAT each dominate different ecosystems]]
 - [[edge compute is necessary for real-time manufacturing control because cloud latency exceeds response requirements]]
+- [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function]] — OPC-UA and MQTT are the first two layers of the complete pipeline stack
+- [[the Unified Namespace applied to mode-dial data should encode mode context alongside sensor readings in the MQTT topic hierarchy]] — OPC-UA data enters the UNS via gateway translation to MQTT
 
 ---
 

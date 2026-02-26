@@ -30,6 +30,8 @@ The GenAI disruption audit challenges the bottleneck identification process itse
 - [[dynamic bottleneck management makes the constraint a managed variable rather than an observed fact]]
 - [[the VUT equation shows that cycle time grows exponentially with utilization when variability is present creating a trap most factories fall into]] — the bottleneck isn't just the slowest station, it's the station with the highest utilization × variability combination
 - [[manufacturing line parameters form a connected system where takt time is the only external input and five leverage points determine where intervention cascades most]] — bottleneck processing time is leverage point 2; a 1% improvement here is a 1% improvement for the whole line
+- [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — U-cells address bottleneck constraints through flexible task reallocation: operators can absorb bottleneck tasks from adjacent stations
+- [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — at low volumes, the bottleneck design principle shifts: design the bottleneck station first, then accept moderate imbalance elsewhere
 
 ---
 

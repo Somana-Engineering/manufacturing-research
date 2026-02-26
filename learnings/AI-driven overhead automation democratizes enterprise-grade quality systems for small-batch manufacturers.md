@@ -17,6 +17,7 @@ This is actually a democratizing effect: AI makes it feasible for small-batch ma
 - [[AI shrinks the fixed cost base making operating leverage less punishing for underutilization and less rewarding for high utilization]]
 - [[customization inverts the small-scale penalty into a premium when each product is inherently unique]] — batch-of-one quality compliance is only viable when AI automates quality system overhead
 - [[in micro-manufacturing the competitive moat is software not hardware because design automation and scheduling determine who can serve high-mix demand profitably]] — quality systems are a key component of the software moat that enables high-mix manufacturing
+- [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — democratized quality systems make even Phase 1 (manual, $2K) viable with enterprise-grade compliance from day one
 
 ---
 

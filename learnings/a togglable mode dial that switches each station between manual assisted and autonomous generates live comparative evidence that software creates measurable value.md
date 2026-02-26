@@ -30,6 +30,15 @@ What this enables beyond demos: real A/B testing of new AI features against prod
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]] — the metrics dashboard is what makes mode comparison legible to visitors
 - [[a unified integration layer creates a common nervous system across heterogeneous equipment without replacing anything]] — the integration layer IS what enables mode switching across heterogeneous stations
 - [[adaptive control responds to condition combinations too complex for human-authored rules]] — the "why" behind the Manual-to-Autonomous performance gap
+- [[generative AI copilots for manufacturing use RAG over internal documentation rather than fine-tuning to reduce hallucination]] — copilots ARE the Assisted mode: real-time guidance via RAG over process documentation while the operator executes
+- [[edge AI adoption follows a PoC-to-platform progression where infrastructure deployment replaces isolated use case development]] — the mode dial is what makes the platform approach tangible: visitors see the same infrastructure serving three operating modes
+- [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — the U-cell dual layout places mode-switchable stations where visitors can see and interact with them
+- [[a hardware abstraction layer decouples mode switching from physical equipment by routing the same control signals through different software configurations]] — the HAL is the engineering mechanism that makes mode switching implementable without hardware changes
+- [[software-defined automation makes each operating mode a deployable software configuration rather than a hardware configuration enabling version-controlled iteration]] — the mode dial IS the SDA thesis made tangible; WEF (Feb 2026) validates this as next-generation manufacturing
+- [[agent-based control enables per-station mode independence where each station maintains its own mode state while reporting to a central dashboard]] — per-station independence means Station 3 runs Autonomous while Station 1 runs Manual
+- [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible]] — mode tagging is what makes the evidence engine work; without it, the toggle is just a control switch
+- [[the mode dial maps to formal autonomy level frameworks where Manual is Level 0-1 Assisted is Level 2-3 and Autonomous is Level 4-5]] — the three positions map to established industrial autonomy levels
+- [[mode transition safety risk varies asymmetrically where autonomous-to-manual is highest risk because it requires graceful deceleration and position handoff]] — the killer demo moment (visitor flips Autonomous to Manual) is the highest-risk transition
 
 ---
 
