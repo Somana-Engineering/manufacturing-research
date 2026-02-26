@@ -63,7 +63,7 @@ The factory software stack spans from embedded PLC firmware to cloud AI platform
 ## Open Questions
 - What is the right abstraction layer for manufacturing AI — should it sit at the MES level, the historian level, or as a separate overlay?
 - How does the protocol fragmentation landscape change as TSN (Time-Sensitive Networking) matures — does convergence actually happen?
-- How many production cycles per mode are needed before the performance difference is statistically significant for sales evidence?
+- How many production cycles per mode are needed before the performance difference is statistically significant for sales evidence? (Relates to [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor|the demo-vs-analytics tension]] — this is the question that determines when the historical display becomes useful)
 - Does the ROS2 lifecycle node state machine (unconfigured → inactive → active → finalized) map to mode dial transitions for cobot stations?
 - What is the right OPC-UA information model for encoding mode state as a standardized object queryable by any OPC-UA client?
 

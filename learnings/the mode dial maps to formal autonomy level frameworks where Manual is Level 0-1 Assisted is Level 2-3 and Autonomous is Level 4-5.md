@@ -28,6 +28,7 @@ Relevant Notes:
 - [[software-defined automation makes each operating mode a deployable software configuration rather than a hardware configuration enabling version-controlled iteration]] — the same equipment at different autonomy levels via software
 - [[a dual-controller architecture pairs an AI processing unit with a safety PLC where both can access all actuators but the PLC serves as safety supervisor]] — Autonomous mode requires the full dual-controller architecture
 - [[edge compute is necessary for real-time manufacturing control because cloud latency exceeds response requirements]] — Assisted and Autonomous modes require edge AI inference
+- [[emergency stop must be hardware-enforced not software-enforced creating a hard boundary on software-defined automation]] — e-stop applies identically at every autonomy level, exposing the irreducible hardware layer beneath all software-defined modes
 
 ---
 
