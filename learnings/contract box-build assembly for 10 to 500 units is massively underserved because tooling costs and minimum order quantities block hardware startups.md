@@ -22,6 +22,8 @@ All-in costs for a 100-unit box build (custom PCB + enclosure + cables + packagi
 - [[setup cost and optimal batch size are mathematically linked through EOQ so reducing changeover time enables smaller batches and leaner inventory]] — 3D printing drives setup cost toward zero for enclosures
 - [[demo factories that convert visitors combine recognizable products visible customization a moment of truth and product changeover as the primary demonstration]] — the assembly capability is inherently a demo: visitors see boarding boxes assembled and realize "you could assemble MY product here"
 - [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — contract assembly service could self-fund from Phase 1 (manual, $2K) with real customer revenue
+- [[contract box-build becomes a design intelligence service when mode-tagged data generates empirical DFA report cards for every customer product]] — transforms commodity assembly into design consultancy: the DFA report card is the differentiator over conventional CEMs
+- [[DFA feedback credibility requires production volume that new customer relationships lack]] — the tension: first-batch customers need DFA feedback most but have the least data to support it
 
 ---
 

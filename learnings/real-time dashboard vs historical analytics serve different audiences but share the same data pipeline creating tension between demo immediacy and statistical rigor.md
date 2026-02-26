@@ -16,7 +16,9 @@ The **historical analytics display** needs aggregated performance across modes o
 
 The tension: how much infrastructure investment should the mode dial justify before statistical significance is achievable? The demo display works from day one — a single mode switch shows a visible effect. The historical display needs weeks of production data across modes. During that ramp period, the demo display carries the persuasion burden alone. Visitors may make purchasing decisions based on anecdotal real-time evidence before rigorous statistical evidence exists.
 
-The resolution may be temporal: invest in the real-time pipeline first (it's needed for demos anyway), and let the historical analytics layer grow naturally as production data accumulates. But the data architecture must support both from the start — [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible|mode-tagged data]] feeds both consumers.
+The resolution may be temporal: invest in the real-time pipeline first (it's needed for demos anyway), and let the historical analytics layer grow naturally as production data accumulates. This mirrors [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment|progressive automation's self-funding logic]] — the real-time display justifies the initial infrastructure investment, and statistical evidence accumulates as a byproduct of production. The [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function|four-layer pipeline]] naturally separates concerns: Grafana renders the real-time demo, while InfluxDB's query engine serves the historical analytics — same data stream, two consumption patterns. But the data architecture must support both from the start — [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible|mode-tagged data]] feeds both consumers.
+
+The deeper implication: the dashboard tension is an instance of the broader shift where [[the competitive moat shifts from accumulated production volume to data infrastructure quality and AI model sophistication|data infrastructure quality becomes the competitive moat]]. The real-time display proves the moat exists (visitors see it). The historical analytics quantify the moat precisely (executives cite it). Both are necessary for the sales motion; the tension is which to invest in first, and the answer is both — with the real-time display carrying the early burden.
 
 ---
 
@@ -25,6 +27,10 @@ Relevant Notes:
 - [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible]] — the data architecture must support both views
 - [[demo factories that convert visitors combine recognizable products visible customization a moment of truth and product changeover as the primary demonstration]] — the demo display is the primary visitor experience
 - [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — the mode dial generates both kinds of evidence
+- [[OPC-UA MQTT InfluxDB and Grafana form the emerging standard metrics pipeline stack for manufacturing with each layer serving a distinct function]] — the pipeline naturally separates real-time (Grafana) from historical (InfluxDB queries) consumption of the same data stream
+- [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]] — the real-time demo display IS continuous monitoring made visible; historical analytics restores the hierarchy for statistical rigor
+- [[the competitive moat shifts from accumulated production volume to data infrastructure quality and AI model sophistication]] — the dashboard tension determines how moat evidence is presented: visitors see real-time proof, executives see historical statistical evidence
+- [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — during early phases only the real-time demo exists; the historical analytics layer populates as production data accumulates across modes
 
 ---
 

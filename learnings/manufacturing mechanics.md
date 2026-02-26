@@ -28,6 +28,12 @@ The physical layer of manufacturing: how material is removed, formed, and joined
 - [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — U-cells solve the mini-factory flexibility problem: 1 operator in demo mode, 3+ for production, same physical footprint
 - [[at mini-factory volumes changeover speed matters more than perfect line balance because imbalance penalties are proportional to volume]] — the practical application of SMED at 8 units/day: invest in changeover speed, accept moderate imbalance
 
+## Design for Assembly
+- [[design for assembly decisions in CAD have 10x more impact on production cost than any downstream process optimization]] — Boothroyd-Dewhurst methodology, snap-fits vs inserts, now enriched with empirical mode gap measurement
+- [[the per-step mode gap replaces DFA table lookups with empirical production measurements of assembly difficulty]] — mode gap = (Manual CT - Autonomous CT) / Autonomous CT: production-reality DFA scoring
+- [[the assisted mode differentiates information problems from physical design problems in assembly steps]] — the three-mode diagnostic adds a dimension traditional DFA lacks entirely
+- [[mode gap data enables specific actionable redesign recommendations where traditional DFA only provides generic guidelines]] — from "reduce part count" to "fix Steps 4, 7, 11 — these account for 78% of the mode gap"
+
 ## Office-Scale Assembly
 - [[SMT electronics assembly is the most viable office-scale production process because it combines multi-step flow with rich data and natural product changeovers]] — convergent finding from three independent research angles; paste→place→reflow→inspect fits on two desks at ~$15K total
 

@@ -30,6 +30,7 @@ Relevant Notes:
 - [[every manufacturing data point must be tagged with the operating mode it was collected under or comparative analytics become impossible]] — mode tagging flows through every layer
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]] — this pipeline is the infrastructure that enables continuous monitoring
 - [[modern compact PLCs run Linux with Docker alongside IEC 61131-3 logic blurring the boundary between industrial controller and edge computing node]] — compact PLCs can host the MQTT broker and even InfluxDB in containers
+- [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor]] — this pipeline naturally separates the two consumers: Grafana for real-time demos, InfluxDB queries for historical evidence
 
 ---
 

@@ -26,6 +26,7 @@ Relevant Notes:
 - [[the Unified Namespace applied to mode-dial data should encode mode context alongside sensor readings in the MQTT topic hierarchy]] — the MQTT broker must be local, not cloud-hosted
 - [[demo factories that convert visitors combine recognizable products visible customization a moment of truth and product changeover as the primary demonstration]] — the cause-and-effect moment requires sub-2-second feedback
 - [[a togglable mode dial that switches each station between manual assisted and autonomous generates live comparative evidence that software creates measurable value]] — the evidence engine requires real-time display to be persuasive
+- [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor]] — this 1-2 second constraint is the real-time side of the broader demo-vs-analytics tension
 
 ---
 

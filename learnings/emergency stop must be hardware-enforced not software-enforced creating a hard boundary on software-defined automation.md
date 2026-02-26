@@ -14,7 +14,7 @@ E-stop must be instantaneous, unconditional, and hardware-enforced. It cannot de
 
 The tension: if the most critical control function (stopping the machine) must be hardware, how far can SDA actually go? The answer is that SDA applies to operational control — what the machine does during normal operation — but safety-critical functions remain in hardware. The dual-controller architecture reflects this: the [[a dual-controller architecture pairs an AI processing unit with a safety PLC where both can access all actuators but the PLC serves as safety supervisor|safety PLC]] operates in a domain that software-defined automation does not and should not reach.
 
-This creates a practical design constraint for the mini factory: every station needs a physical e-stop button hardwired to a safety relay, regardless of how sophisticated the software control becomes. The mode dial can switch between Manual, Assisted, and Autonomous — but the red button overrides all three identically, from outside the software stack entirely.
+This creates a practical design constraint for the mini factory: every station needs a physical e-stop button hardwired to a safety relay, regardless of how sophisticated the software control becomes. Since [[agent-based control enables per-station mode independence where each station maintains its own mode state while reporting to a central dashboard|each station operates as an independent agent]], the e-stop wiring must account for both per-station stops and a factory-wide master stop — adding hardware complexity proportional to the number of independent agents. The mode dial can switch between Manual, Assisted, and Autonomous — but the red button overrides all three identically, from outside the software stack entirely. Regardless of whether [[the mode dial maps to formal autonomy level frameworks where Manual is Level 0-1 Assisted is Level 2-3 and Autonomous is Level 4-5|a station operates at Level 0 or Level 5]], the e-stop circuit is identical.
 
 ---
 
@@ -24,7 +24,9 @@ Relevant Notes:
 - [[three-layer PLC architecture separates hardware abstraction from process logic from safety override ensuring mode transitions never leave a station in an unsafe intermediate state]] — e-stop is above even the safety layer
 - [[a dual-controller architecture pairs an AI processing unit with a safety PLC where both can access all actuators but the PLC serves as safety supervisor]] — the PLC's safety domain includes but is not limited to software-accessible functions
 - [[mode transition safety risk varies asymmetrically where autonomous-to-manual is highest risk because it requires graceful deceleration and position handoff]] — e-stop is the ungraceful alternative when graceful handoff fails
+- [[the mode dial maps to formal autonomy level frameworks where Manual is Level 0-1 Assisted is Level 2-3 and Autonomous is Level 4-5]] — e-stop exists below all autonomy levels, applying identically whether a station runs at Level 0 or Level 5
+- [[agent-based control enables per-station mode independence where each station maintains its own mode state while reporting to a central dashboard]] — per-station independence means e-stop wiring must be both per-station and factory-wide, adding complexity proportional to agent count
 
 ---
 
-Topics: [[manufacturing software]]
+Topics: [[manufacturing software]], [[somana product]]

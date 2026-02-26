@@ -30,6 +30,8 @@ Relevant Notes:
 - [[continuous process monitoring collapses the metrics hierarchy by seeing all four levels simultaneously]] — mode-tagged monitoring enables mode-comparative process analysis
 - [[the Unified Namespace promises any-to-any data flow but UNS without governance becomes chaos at scale]] — mode context in the UNS is a governance requirement, not optional metadata
 - [[OEE component decomposition tells different stories across modes where performance shows the biggest gap and availability stays roughly constant]] — mode-tagged data enables per-mode OEE decomposition
+- [[the DFA feedback engine is an analytical layer on existing mode-tagged data infrastructure not a new data system]] — mode-tagged data enables DFA analytics as a zero-cost additional product: same data, new analytical queries
+- [[the per-step mode gap replaces DFA table lookups with empirical production measurements of assembly difficulty]] — per-step mode-tagged timing is the raw input for the mode gap formula
 
 ---
 

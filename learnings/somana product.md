@@ -51,6 +51,21 @@ created: 2026-02-19
 - [[the mode comparison dashboard must update within 1-2 seconds of a mode change to maintain the cause-and-effect demo experience which demands edge processing]] — demo UX requires edge-local pipeline for sub-2-second feedback
 - [[OEE component decomposition tells different stories across modes where performance shows the biggest gap and availability stays roughly constant]] — decomposed OEE makes the mode comparison legible to visitors
 
+## Mini Factory — Mode Dial Tensions
+- [[real-time dashboard vs historical analytics serve different audiences but share the same data pipeline creating tension between demo immediacy and statistical rigor]] — the real-time demo carries the early persuasion burden; statistical evidence accumulates over weeks of production
+- [[emergency stop must be hardware-enforced not software-enforced creating a hard boundary on software-defined automation]] — every station needs a physical e-stop hardwired to safety relays, regardless of software sophistication; the irreducible hardware layer beneath SDA
+
+## Mini Factory — DFA Feedback Engine
+- [[the per-step mode gap replaces DFA table lookups with empirical production measurements of assembly difficulty]] — mode gap = (Manual CT - Autonomous CT) / Autonomous CT: an empirical DFA score from production reality, not estimation
+- [[the assisted mode differentiates information problems from physical design problems in assembly steps]] — if Assisted closes the gap, the problem is guidance; if not, the product geometry needs redesign
+- [[mode gap data enables specific actionable redesign recommendations where traditional DFA only provides generic guidelines]] — "Step 4 cable routing has 340% mode gap — add channel" vs. generic "reduce part count"
+- [[contract box-build becomes a design intelligence service when mode-tagged data generates empirical DFA report cards for every customer product]] — transforms commodity assembly into data-driven design consultancy
+- [[the DFA feedback engine creates a virtuous data flywheel where each assembled product improves diagnostic accuracy for future products]] — more products → better patterns → more valuable feedback → more customers → more data
+- [[the DFA feedback engine is an analytical layer on existing mode-tagged data infrastructure not a new data system]] — zero incremental infrastructure cost; the mode dial pipeline already produces the data
+- [[72 percent of manual factory tasks are unmonitored and the mode dial architecture eliminates this blind spot by instrumenting all three modes equally]] — Somana captures manual assembly data that 72% of factories never collect
+- [[30 cycles per mode per step provides sufficient data for detecting a 20 percent mode gap with reasonable statistical confidence]] — ~450 total cycles for a 5-station 3-mode line; achievable in weeks of production
+- [[DFA feedback credibility requires production volume that new customer relationships lack]] — the service is most valuable for first-batch customers who have the least data
+
 ## Mini Factory — Assembly Engineering
 - [[design for assembly decisions in CAD have 10x more impact on production cost than any downstream process optimization]] — snap-fits vs inserts for 3D-printed boarding box enclosures
 - [[3D printers that produce enclosures should simultaneously produce assembly fixtures and test jigs at near-zero marginal tooling cost]] — print farm does double duty: enclosures + tooling
@@ -68,6 +83,8 @@ Product portfolio for demos: IoT environmental sensors (BOM $15–40, 50–70% m
 ---
 
 Agent Notes:
+- 2026-02-26: Added DFA Feedback Engine section (9 learnings). The single most accretive addition to the plan: the mode dial's per-step Manual-vs-Autonomous performance gap IS a quantified DFA score. Every assembled product generates an empirical DFA report card, transforming contract box-build from commodity assembly into a design intelligence service with a compounding data flywheel. The Assisted mode adds a diagnostic dimension traditional DFA lacks: information problems vs. physics problems. Zero incremental infrastructure cost — same mode-tagged pipeline, new analytical layer.
+- 2026-02-25: Added Mode Dial Tensions section with e-stop and dashboard tension learnings. These tensions surface practical design constraints on the mode dial: e-stop adds per-station hardware wiring complexity proportional to agent count, and the dashboard tension determines how to sequence investment in real-time vs. historical analytics infrastructure.
 - 2026-02-25: Added Mode Dial Software Architecture section (7 learnings). The mode dial concept now has engineering depth: HAL pattern, SDA validation, per-station independence, mode-tagged data, metrics pipeline stack, dashboard latency, and OEE decomposition across modes. The "how to build it" is now specified alongside the "why to build it."
 - 2026-02-23: Added Line Layout & Demo Architecture section (U-cells, changeover-vs-balance, mode dial). The mode dial learning is the single most important architectural insight for the demo factory — it reframes the factory from "showcase that runs" to "evidence engine that proves software value through live A/B comparison." Updated Production Line Design context phrases to reflect mode dial connections.
 - 2026-02-20 (update): Pivoted from SMT assembly to final assembly + 3D-printed enclosures. SMT knowledge remains relevant as understanding of customer world (factory floor equipment integration) but not as Somana's own manufacturing process. PCBAs arrive pre-assembled from contract manufacturers.

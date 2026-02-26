@@ -47,6 +47,9 @@ Understanding the economic parameters of manufacturing: how costs are structured
 - [[customization inverts the small-scale penalty into a premium when each product is inherently unique]] — challenges the assumption that small batches are always a penalty; 21-85% margins in batch-of-one niches
 - [[in micro-manufacturing the competitive moat is software not hardware because design automation and scheduling determine who can serve high-mix demand profitably]] — Cimpress ($3.4B), Bright Machines, and Tempo prove the software-defined manufacturing model
 - [[progressive automation pays for itself when each phase demonstrates ROI before funding the next investment]] — the phased investment model ($2K to $150K) that makes small-scale economics work by self-funding each automation tier
+- [[contract box-build becomes a design intelligence service when mode-tagged data generates empirical DFA report cards for every customer product]] — transforms commodity assembly into design consultancy with per-customer retention loop
+- [[the DFA feedback engine creates a virtuous data flywheel where each assembled product improves diagnostic accuracy for future products]] — the competitive moat compounds with every product: more data → better diagnostics → more customers
+- [[DFA feedback credibility requires production volume that new customer relationships lack]] — tension: first-batch customers need feedback most but have least statistical basis
 
 ## Layout & Line Design
 - [[U-shaped assembly cells provide 2-3x more task combinations than straight lines by letting operators start and finish at the same point]] — U-cells scale from 1 to 8 operators, solving the mini-factory staffing flexibility problem
